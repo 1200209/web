@@ -22,7 +22,9 @@ var io = require('socket.io').listen(http);
  	socket.broadcast.emit('count send',num);
      });
 
-    
+     socket.on('dahai',function(img){
+	 
+     });
 	
     
      // 切断
