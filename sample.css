@@ -1,0 +1,32 @@
+html {
+  min-height: 100%;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+body > #wrapper {
+  overflow: auto;
+  position: fixed;
+  z-index: 1;
+  width: 1000px;
+  height: 800px;
+  /*min-height:100%;*/
+
+  background-color: #5d7b2c
+}
+/*#canvas{
+  width:1000px;
+  height:500px;
+}*/
+
+canvas#canvas {
+  position: fixed;
+}
